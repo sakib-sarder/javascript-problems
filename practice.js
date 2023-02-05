@@ -36,7 +36,6 @@ let arr = [10, 20, -10, 302, 85];
 let result = secondLargest(arr);
 console.log(result[1]); */
 
-
 /* let arr = [10, 20, -10, 302, 85];
 let result = arr.sort(function (a, b) { return b - a });
 console.log(result[1]); */
@@ -315,3 +314,59 @@ console.log(isJavaScriptFile("hello.Js"));
 */
 
 // Problem '3'
+
+/* 
+function oilPrice(digelPrice, petrolPrice, octenPrice) {
+  const digelPerLitre = 114;
+  const petrolPerLitre = 130;
+  const octenPerLitre = 135;
+  let digelCost = digelPrice * digelPerLitre;
+  let petrolCost = petrolPrice * petrolPerLitre;
+  let octenCost = octenPrice * octenPerLitre;
+  const totalCost = digelCost + petrolCost + octenCost;
+  return totalCost;
+}
+console.log(oilPrice(30, 20, 10)); 
+*/
+
+// Problem '4'
+
+/*
+ function publicBusFare(people) {
+  const publicBusFare = 250;
+  const busCapacity = 50;
+  const microbusCapacity = 11;
+  let restPeople1 = people % busCapacity;
+  let restPeople2 = restPeople1 % microbusCapacity;
+  let cost = restPeople2 * publicBusFare;
+  return cost;
+}
+const result = publicBusFare(365);
+console.log(result);  
+*/
+
+// Problem '5'
+
+/* 
+function isBestFriend(friends) {
+  if (
+    friends[0].name == friends[1].friend &&
+    friends[0].friend == friends[1].name
+  ) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+let friendsArr = [
+  { name: "doe", friend: "john" },
+{ name: "john", friend: "doe" }
+
+];
+console.log(isBestFriend(friendsArr)); 
+*/
+
+
+//----------------------------------------------------------Conceptual Practice Done-------------------------------------------------------
+

@@ -1,3 +1,46 @@
+// extra things:
+
+/*
+function isEven( ){
+  let result={}
+  for(var i=0 ; i<arguments.length;i++){
+      const elem=arguments[i];
+        const reminder = elem %2;
+  if( reminder ===0){
+  result[elem]= 'even'
+}
+  else{
+     result[elem]= 'odd'
+  }
+  }
+ 
+return result
+}
+console.log(isEven(15, 45, 78, 75)); 
+*/
+
+// Second Largest Number:
+
+/* 
+function secondLargest(numbers) {
+  let emptyArr = [];
+  for (let i = 0; i < numbers.length; i++) {
+    singleNumber = numbers[i];
+    emptyArr.push(singleNumber);
+  }
+  let finalResult = emptyArr.sort(function (a, b) { return b - a; });
+  return finalResult;
+}
+
+let arr = [10, 20, -10, 302, 85];
+let result = secondLargest(arr);
+console.log(result[1]); */
+
+
+/* let arr = [10, 20, -10, 302, 85];
+let result = arr.sort(function (a, b) { return b - a });
+console.log(result[1]); */
+
 /* 
 function tallestFriend ( height ) {
   let tallest = height[0];
@@ -243,7 +286,6 @@ let friends = [
 console.log(lowerLengthAge(friends)); 
 */
 
-
 // ----------------------------------------------------------------------------------------PROBLEMS-------------------------------------------------------------------------------------------
 
 // Problem '1'
@@ -273,4 +315,3 @@ console.log(isJavaScriptFile("hello.Js"));
 */
 
 // Problem '3'
-

@@ -22,7 +22,7 @@ points.sort(function (a, b) {
 console.log(points); 
 */
 
-//-------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 //problem solving checklist::::==>
 
@@ -156,9 +156,9 @@ console.log(vowelTest('E'));
 */
 
 // conceptual docs
-//-------------------------------------------------------------------
-
-// problem no. 1
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//Basid
+// problem no. Basic 1
 
 /* 
 let sum = 0;
@@ -169,20 +169,15 @@ for (let i = 1; i <= 6; i++){
 console.log(sum); 
 */
 
-// problem no. 2
+// problem no. Basic 2
 
-function multiplicationTable(multiplicationNumber) {
-  let multiplicationTableResult = 1;
-  for (let i = 1; i <= multiplicationNumber; i++){
-    let number = i;
-    multiplicationTableResult = 3 + 'x' + number + '=' + 3 * number;
-  }
- return multiplicationTableResult;
+/* 
+for (let i = 1; i <= 10; i++) {
+  let number = i;
+  console.log(3 + "x" + number + "=" + 3 * number);
 }
-console.log(multiplicationTable(10));
-
-
-// problem no. 3
+ */
+// problem no. Basic 3
 
 /* 
 function greaterThanFive(numbersArray){
@@ -199,3 +194,83 @@ function greaterThanFive(numbersArray){
 let numbers = [-1,2,-3,4,5,6,-7,8,-9,10];
 console.log(greaterThanFive(numbers)); 
 */
+
+// problem no. Basic 4
+
+/*
+ function friends(friend1, friend2) {
+  if (friend1.length > friend2.length) {
+    return friend1.split('').reverse().join('');
+  }
+  else {
+    return friend2.split('').reverse().join('');
+  }
+}
+console.log(friends('rakib', 'shakib')); 
+*/
+
+// problem no. Basic 5
+
+/* 
+function waterVolume(milimeter) {
+  let result = milimeter / 1000;
+  return result;
+}
+console.log(waterVolume(10)); 
+*/
+
+// problem no. Basic 6
+
+/* 
+function lowerLengthAge(friendsArray) {
+  let result =friendsArray[0];
+  for (let i = 0; i < friendsArray.length; i++){
+    let singleElement = friendsArray[i];
+    if (singleElement.age > result.age) {
+      result = singleElement;
+    }
+  }
+  return 'Youngest Person Is :'+ result.name;
+
+}
+
+let friends = [
+  { name: 'sakib', age: 30 },
+  { name: 'samiul', age: 20 },
+  { name: 'sahid', age: 50 },
+  { name: 'samin', age: 10 }
+];
+console.log(lowerLengthAge(friends)); 
+*/
+
+
+// ----------------------------------------------------------------------------------------PROBLEMS-------------------------------------------------------------------------------------------
+
+// Problem '1'
+
+/* 
+function radianToDegree(radian) {
+  let firstExpression = 180 / Math.PI;
+  let result = radian * firstExpression;
+  return result.toFixed(2);
+}
+console.log(radianToDegree(10)); 
+*/
+
+// Problem '2'
+
+/*
+ function isJavaScriptFile(String) {
+  let stringSmall = String.toLowerCase();
+  if (stringSmall.endsWith('.js')) {
+    return true;
+  }
+  else {
+    return false;
+  }
+}
+console.log(isJavaScriptFile("hello.Js")); 
+*/
+
+// Problem '3'
+
